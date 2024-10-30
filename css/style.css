@@ -1,0 +1,44 @@
+body {
+    color: tomato
+}
+
+
+/* con # indico que lo que viene es un id */
+#titulo {
+    color: tomato;
+}
+
+/* con . indico que lo que viene es una clase */
+p.texto {
+    color: slateblue
+}
+
+p.especial {
+    color: mediumspringgreen
+}
+
+/* Todos los p dentro de div*/
+div p {
+    color: aquamarine
+}
+
+div h2,
+div h3 {
+    color: blue
+}
+
+/* El * selector universal para todo lo que no este definifo, por ejemplo color esta utilizado por lo cual no lo cambia*/
+* {
+    font-size: 24px
+}
+
+/* Lo ultimo que se asigna es lo que se aplica*/
+
+.color {
+    /** border: 5px black solid **/
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 1em;
+    /*em medida relativa a la fuente donde se usa, rem relativa a la fuente raíz*/
+}
